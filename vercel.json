@@ -1,0 +1,8 @@
+{
+  "buildCommand": "next build",
+  "cleanUrls": true,
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/old-endpoint", "destination": "/api/new-endpoint" }
+  ]
+}

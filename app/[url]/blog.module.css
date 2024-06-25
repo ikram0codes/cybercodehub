@@ -1,0 +1,519 @@
+
+.main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border-bottom: 1px solid #3d3a3ace;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: max-content;
+}
+
+.mobTbc {
+    margin: 0px 5px;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 10000;
+    top: 8rem;
+    right: 0%;
+    border-radius: 5px;
+    background-color: #0b499e;
+    transition: 300ms ease-in-out;
+    min-width: 20rem;
+    color: white;
+}
+
+.drop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-left: 10px solid #0758C9;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.dropBtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #007BFF;
+}
+
+.dropBtn svg {
+    font-size: 30px;
+}
+
+.drop h1 {
+    padding: 3px 5px;
+    width: 100%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+
+.sideHead svg {
+    font-size: 25px;
+}
+
+.blog {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cats {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cats a {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-weight: 300;
+    color: #0079FF;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Lato, sans-serif;
+}
+
+.blogImage {
+    width: 100%;
+    height: max-content;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+    border: 1px solid rgba(44, 44, 44, 0.397);
+}
+
+
+
+.credits {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.credits .ik {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.credits .ik .ikPic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.credits h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.desc {
+    padding: 0px 20px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.desc h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.desc ul li {
+    list-style: disc;
+    padding: 5px 0px;
+}
+
+.desc img {
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid rgba(44, 44, 44, 0.397);
+}
+
+.desc h1 {
+    margin: 5px 0px;
+    font-family: Roboto Slab, serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.desc p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.desc a {
+    color: #007BFF;
+}
+
+.suggested {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.suggested .heading {
+    font-size: 30px;
+    border-bottom: 2px solid #0758C9;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.posts {
+    margin: 20px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sideBar {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 10px;
+    position: sticky;
+    top: 0%;
+}
+
+.tbc {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sideHead {
+    width: 100%;
+    background-color: white;
+    border-left: 10px solid #0758C9;
+    color: black;
+    padding: 3px 5px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.sideHead svg {
+    font-size: 25px;
+}
+
+
+.trending {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.tposts {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.tblog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid rgba(51, 50, 50, 0.658);
+    padding: 10px 0px;
+}
+
+.tblog img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+
+}
+
+.newsLetter {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    gap: 20px;
+}
+
+.inp {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inp form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.inp input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    background-color: #474759;
+    color: silver;
+    background-color: #0e3a78;
+}
+
+.inp input::placeholder {
+    color: silver;
+}
+
+.inp form button {
+    height: 100%;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: Ubuntu Mono, monospace;
+    font-size: 20px;
+    background-color: #0758c9;
+    color: white;
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.inp form button:hover {
+    background-color: #0b499e;
+}
+
+.inp p {
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media screen and (max-width:1100px) {
+    .blog {
+        padding: 10px 5px;
+    }
+
+    .posts {
+        gap: 10px;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width:1027px) {
+
+    .posts {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .main {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tbc {
+        display: none;
+    }
+
+    .mobTbc {
+        display: flex;
+    }
+}
+
+@media screen and (max-width :820px) {
+    .info .title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width :625px) {
+    .posts {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width :600px) {
+    .info .title {
+        font-size: 30px;
+    }
+
+    .credits {
+        padding: 0px 5px;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .blog {
+        padding: 0px;
+    }
+
+    .info {
+        gap: 10px;
+    }
+
+    .cats a {
+        font-size: 12px;
+    }
+
+    .desc {
+        font-size: 20px;
+        padding: 0px 5px;
+    }
+
+    .desc h1 {
+        font-size: 30px;
+
+    }
+
+    .desc h2 {
+        font-size: 23px;
+    }
+
+    .info .title {
+        font-size: 26px;
+    }
+
+    .credits h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .credits .ik .ikPic {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .info .title {
+        font-size: 20px;
+    }
+}

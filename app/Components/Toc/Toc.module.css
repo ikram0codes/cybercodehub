@@ -1,0 +1,19 @@
+.tbc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.tbc li {
+    width: 100%;
+    text-align: left;
+}
+
+.tbc li a {
+    font-weight: 500;
+    transition: 300ms ease-in-out;
+}

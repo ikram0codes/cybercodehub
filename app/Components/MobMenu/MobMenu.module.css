@@ -1,0 +1,67 @@
+.main {
+    width: 100%;
+    min-height: 8rem;
+    height: max-content;
+    background-color: #121934;
+    background-color: #0E3A78;
+    position: absolute;
+    z-index: 200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+
+.menuList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.menuList ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuList li {
+    list-style: none;
+}
+
+.menuList li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: silver;
+}
+
+.close {
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    right: 0%;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.close svg {
+    color: white;
+    font-size: 30px;
+}

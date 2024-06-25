@@ -1,0 +1,97 @@
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: max-content;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid #007BFF;
+
+}
+
+.head h1 {
+    font-weight: 600;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 20px;
+    min-height: 60vh;
+    height: max-content;
+    padding: 0px 10px;
+}
+
+.filter {
+    width: max-content;
+    min-width: 7rem;
+    margin: 5px 0px;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    outline: none;
+    background-color: #0758C9;
+    color: white;
+    font-family: Ubuntu Mono, monospace;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.filter:hover {
+    background-color: #07449a;
+}
+
+.filter option {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1024px) {
+    .posts {
+        grid-template-columns: auto auto;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .posts {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .head h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .filter {
+        width: 5rem;
+    }
+}

@@ -1,0 +1,212 @@
+.main {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.submit button {
+    width: 7rem;
+    height: 2rem;
+    background-color: #0758C9;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Ubuntu Mono, monospace;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit button:disabled {
+    background-color: #0a3a7e;
+    cursor: not-allowed;
+}
+
+.title {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #474759;
+    color: white;
+
+}
+
+.title::placeholder {
+    color: silver;
+}
+
+.inpBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inpBox input {
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: #474759;
+    font-family: Open Sans, sans-serif;
+    color: silver;
+}
+
+.inpBox input::placeholder {
+    color: silver;
+
+}
+
+.inpBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keywords {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keywords input {
+    width: 15rem;
+    height: 2.8rem;
+    border-radius: 5px;
+    color: silver;
+    padding: 0px 5px;
+    background-color: #474759;
+    border: none;
+    outline: none;
+    font-family: Open Sans, sans-serif;
+}
+
+.keywords input::placeholder {
+    color: silver;
+}
+
+.keywords button {
+    width: 4.5rem;
+    height: 2.5rem;
+    background-color: #0758C9;
+    color: white;
+    font-family: Ubuntu Mono, monospace;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.description {
+    width: 100%;
+    min-height: 80vh;
+    height: max-content;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inpBox2 .show {
+    background: none;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    color: #0758C9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.cats select {
+    width: 20rem;
+    height: 2.8rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    background-color: #474759;
+    color: silver;
+    font-family: Open Sans, sans-serif;
+}
+
+.count {
+    font-family: Ubuntu Mono, monospace;
+}
+
+.preview {
+    top: 0%;
+    z-index: 400;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #262630ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preview ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 500;
+    color: white;
+
+}
+
+.preview ul li {
+    list-style: none;
+}
+
+.preview h1 {
+    color: white;
+}
+
+
+.close {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.close svg {
+    font-size: 30px;
+    color: white;
+}

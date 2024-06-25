@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /create
+
+Sitemap: https://www.cybercodehub.com/sitemap.xml
+
+User-agent: *
+
+Allow: /
